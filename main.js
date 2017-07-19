@@ -1,3 +1,5 @@
+'use strict';
+
 // counter for new tasks
 var counter = 0;
 
@@ -10,15 +12,15 @@ function checkKey(e){
 
 // add a new task item
 function newTask(){
-	var newTaskItem = document.getElementById('task'); 
+	let newTaskItem = document.getElementById('task'); 
 	
 	// retrieve input value
-	var task = newTaskItem.value;
+	let task = newTaskItem.value;
 	newTaskItem.value = "";
 	
 	counter++;
 	
-	var allTaskItems = document.getElementById('allTasks');
+	let allTaskItems = document.getElementById('allTasks');
 	
 	// insert the new task
 	allTaskItems.innerHTML = allTaskItems.innerHTML +
