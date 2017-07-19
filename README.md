@@ -2,7 +2,7 @@
 
 
 ## Objective
-Build a ToDo List app
+Build a ToDo List app 
 
 
 ## Requirements
@@ -15,3 +15,8 @@ Build a ToDo List app
 ## Result
 
 You can view the live version of the app on: https://ajibs.github.io/todo-list/
+
+
+## Notes
+* This app was inspired by the http://cchubnigeria.com/graduate/ programme
+* The app was built with Vanilla JS
