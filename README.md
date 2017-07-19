@@ -9,9 +9,9 @@ Build a ToDo List app
 
 * User Story: I can add a new task
 
-* User Story: I can delete a dask
+* User Story: I can delete a task
 
 
 ## Result
 
-You can view the live version of the app on:
+You can view the live version of the app on: https://ajibs.github.io/todo-list/
