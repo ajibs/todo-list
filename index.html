@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<!-- Unicode Transformation Format; Universally agreed format containing all characters from different languages -->
+		<meta charset="utf-8">
+		
+		<!-- Resize content for device browser's width -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Use the best Internet Explorer engine available -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+		<title>ToDo List</title>
+		
+		<!-- Custom CSS -->
+		<link type="text/css" rel="stylesheet" href="styles.css">
+		
+		<!-- Custom Script -->
+		<script type="text/javascript" src="main.js"></script>
+	</head>
+	<body>
+		<h1 id="super-title">ToDo List</h1>
+		<div class="wrapper">
+			<!-- Add New Task -->
+			<input id="task" placeholder="Add a New Task" type="text" onkeypress="checkKey(event)" autofocus>
+			<!-- List All Tasks -->
+			<div id="allTasks"></div>
+		</div>
+	</body>
+</html>
